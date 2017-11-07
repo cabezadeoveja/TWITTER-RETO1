@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" type="text/css" href="assents/css/main.css">
+</head>
+<body>
+<!--Sección cabecera-->
+	<header> 
+		<div class="container">
+			<h1>Twitter</h1>
+		</div>
+	</header>
+
+<!--Sección Profile -->
+	<section id="pagina-twitter">
+		<div class="profile">
+			<h2> Reto del codigo </h2>
+			<p> Hola, <br>
+			Soy front-end developer jr.</p>
+			<br>
+			<hr>
+			<p> CODIGO </p>
+		</div>
+
+<!--Sección Tarea, botón -->
+		<div class="tweet">	
+		<textarea class="txt" id="comment" placeholder="¿Qué estas pensando..?"></textarea>
+		<hr>
+		<br><button type="button" id="btn" onclick="add()">TWEET</button>
+		<span id="counter-characters">140</span>
+		</div>
+	</section>
+	<!--Contenedor Comentarios -->
+		<div id="cont"></div>
+
+
+
+	<script type="text/javascript" src="assents/js/app.js"></script>
+</body>
+</html>
