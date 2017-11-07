@@ -26,10 +26,12 @@
 
 <!--Sección Tarea, botón -->
 		<div class="tweet">	
-		<textarea class="txt" id="comment" placeholder="¿Qué estas pensando..?"></textarea>
+		<textarea class="txt" id="comment" placeholder="¿Qué estas pensando..?" onKeyDown="contar()" onKeyUp="contar()" rows="8" cols="38"></textarea>
+
 		<hr>
 		<br><button type="button" id="btn" onclick="add()">TWEET</button>
-		<span id="counter-characters">140</span>
+
+		<input disabled size="3" value="140" id="contador">
 		</div>
 	</section>
 	<!--Contenedor Comentarios -->
