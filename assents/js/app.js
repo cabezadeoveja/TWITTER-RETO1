@@ -47,11 +47,13 @@ function add(){
     //lo igualo a un elemento vacio para que lo limpie del text area al momento de enviar. 
 
     var newComments = document.createElement('div');
+    	newComments.setAttribute("id","newComments")
     //creo un nuevo div
     var cont = document.getElementById('cont');
     //agrega un id al contenedor div que se creo arriba (mismo nombre que le pusimos en el html para guiarnos)
 
     var paragraph = document.createElement('p');
+    	paragraph.setAttribute("id", "paragraph");
     //crear una etiqueta P con una clase. P tiene un hijo que es un nodo de texto.
     //vamos a crear un nodo de texto.
     var nodoText = document.createTextNode(comments);
@@ -68,9 +70,8 @@ function add(){
     newComments.appendChild(dateSpan);  //dataSpan(hora) se appendea al papá newComments
     newComments.appendChild(paragraph); //paragraph se appendea al papá newComments
     cont.appendChild(newComments); //newComments también tiene un papá que es Cont
+    document.body.appendChild(cont);
 
 };
 
-
-	
 

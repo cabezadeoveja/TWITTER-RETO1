@@ -3,17 +3,21 @@ html, body{
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background: lightblue;
+	background: #c0deed;
 }
 
 .container {
 	text-align: center;
-	background-color: pink;
+	background-color: #66ccda;
+	font-family: 'Barlow', sans-serif;
 }
 
-h1{
+h1  {
 	display: inline-block;
+	font-weight: 300;
+	color: #ffffff;
 }
+
 
 h2{
 	display: inline-block;
@@ -26,7 +30,8 @@ h2{
 .profile{
 	box-sizing: border-box;
 	display: inline-block;
-	background-color: yellow;
+	font-family: 'Barlow', sans-serif;
+	background-color: #ffffff;
 	display: inline-table;
 	text-align: left;
 	width: 400px;
@@ -34,22 +39,70 @@ h2{
 	margin: 10px 5px;
 }
 
+.profileparrafo{
+	display: inline-block;
+	padding: 11px 0px 0px 0px;
+}
+
+.codigo{
+	color: #0084b4;
+	font-weight: 600;
+	padding: 0px;
+	margin: 18.5px 0px;
+
+}
+
 .tweet{
 	display: inline-block;
 	display: inline-table;
 	vertical-align: top;
 	margin: 10px 5px;
-	background-color: orange;
-
+	background-color: #ffffff;
 }
 
 #comment{
+	box-sizing: border-box;
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
+	padding: 20px;
 	width: 400px;
 	height: 145px;
-	background-color: orange;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	resize:none;
 }
 
-#cont div{
-	background-color: red;
-	clear: both;
+#btn{
+	margin: 0 0 10px;
 }
+
+div#cont{
+	box-sizing: border-box;
+	display: inline-block;
+	font-family: 'Barlow', sans-serif;
+	width: 62.7%;
+	margin: 0px 243px;
+}
+
+#newComments{
+	box-sizing: border-box;
+	background-color: #66ccda;
+	opacity: 0.9;
+
+}
+
+#paragraph{
+	display: block;
+	padding: 10px;
+
+}
+span{
+	color: #0084b4;
+	font-weight: 600;
+	font-family: 'Barlow', sans-serif;
+	padding: 0 5px;
+}
+
+
+
